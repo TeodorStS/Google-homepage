@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-section">
+        <div class="left-side">
+            <div id="txt" class="clock">
+            </div>
+            <a href="https://about.google/">About</a>
+            <a href="https://store.google.com/">Store</a>
+        </div>
+        <div class="right-side">
+            <div class="theme_button">
+                <button class="theme_button" onclick="themechange()">
+                </button>
+            </div>
+            <a href="https://gmail.com/">Gmail</a>
+            <a href="https://images.google.com/">Images</a>
+            <img class="app-icon" src="./images/dots.png">
+            <img class="profile-pic" src="./images/catpfp.jpg" onclick="pfpchange()">
+        </div>
+    </div>
+    <div class="middle-section">
+        <form class="search-form">
+            <img class="google-logo" src="./images/google_logo.png">
+            <div id="greeting"> </div>
+            <div class="search-from-input">
+                <img class="search-icon" src="./images/search.png">
+                <label for="search">Search</label>
+                <input type="text" name="search" id="searchInput" placeholder="Type something...">
+                <img class="mic" src="./images/mic.png">
+                <img class="camera" src="./images/googlecamera.png">
+            </div>
+            <div class="search-form-buttons">
+                <button class="underseachbuttons" type="button" id="searchBtn">Search</button>
+                <button class="underseachbuttons" type="submit" id="luckyBtn">Im feeling lucky</button>
+            </div>
+        </form>
+    </div>
+    <div class="bottom-section">
+        <div class="bottom-left">
+            <a href="https://ads.google.com/">Advertising</a>
+            <a href="https://smallbusiness.withgoogle.com/">Business</a>
+            <a href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/">How search works</a>
+        </div>
+        <div class="bottom-middle">
+            <a href="https://sustainability.google/operations/">Carbon neutral</a>
+        </div>
+        <div class="bottom-right">
+            <a href="https://policies.google.com/privacy?hl=en-US">Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en-US">Terms</a>
+            <a href="https://www.google.com/settings">Settings</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        startTime();
+    </script>
+</body>
+</html>

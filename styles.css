@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,html{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color:white;
+    color:black;
+}
+
+html, body{
+    min-width:400px;
+}
+
+body, input, button{
+    font-size:14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124
+
+}
+
+body{
+    background: #fff;
+    display:flex;
+    flex-direction:column;
+}
+
+.top-section{
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    margin-bottom:5rem;
+}
+
+.left-side,
+.right-side{
+    display:flex;
+    gap:1.5rem;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+}
+
+.middle-selection{
+    flex-grow:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 1 rem 0;
+    gap: 1.2rem;
+}
+
+.app-icon{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.profile-pic{
+    width:2rem;
+    height:2rem;
+    border-radius: 100%;
+}
+
+.search-icon{
+    width:1rem;
+    height:1rem;
+}
+
+.mic,
+.camera{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.search-form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:2.5rem;
+}
+
+.search-from-input{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: 1px solid #dfe1e5;
+    gap: 1rem; 
+    border-radius:30px;
+    padding:0.5rem 1.5rem;
+    transition: border-color 1s ease, box-shadow 1s ease;
+}
+
+.search-form label{
+    display:none;
+}
+
+.search-form input{
+    width:27rem;
+    padding:0.5rem;
+    border:none;
+    outline:none;
+}
+
+.search-form button{
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius:4px;
+    color: #3c4043;
+    font-family:Roboto, Arial, sans-serif;
+    margin:11px 4px;
+    padding: 0 16px;
+    line-height:27px;
+    height:36px;
+    min-width: 54px;
+    text-align:center;
+    cursor:pointer;
+    user-select:none;
+}
+
+.bottom-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: #f2f2f2;
+    padding: 1rem 1.5rem;
+    margin-bottom:none;
+    margin-top: auto;
+
+}
+
+.bottom-left,
+.bottom-right{
+    display:flex;
+    gap:1.8rem;
+    
+}
+
+#greeting {
+    text-align: center; 
+    font-size: 1.5rem; 
+    font-weight: 500;
+    padding:0.5rem;
+    border:none;
+    border-radius:15px;
+    transition:smooth;
+    color:#878784;
+    border-color:#c7c7c3;
+}
+
+.dark-mode{
+    background-color:black;
+    color:#c7c7c3;
+
+    a{
+        color:#c7c7c3;
+    }
+
+    #search
+    {
+        background-color:black;
+    }
+
+    .bottom-section
+    {
+        background-color:#2e2e2d;
+    }
+
+    .underseachbuttons{
+        border:none;
+        color:#c7c7c3;
+        background-color: #2e2e2d;
+    }
+
+    #searchInput
+    {
+        background-color: black;
+    }
+
+    #searchInput{
+        color:white;
+    }
+
+}
+
+.theme_button {
+    width: 20px;
+    height: 20px;
+    background: url('./images/themes(2).png') no-repeat center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.clock{
+    padding:5px;
+    border:1px solid #dfe1e5;
+    border-radius: 20px;
+}
+#searchBtn,
+#txt,
+#luckyBtn,
+#greeting
+{
+    transition: border-color 1s ease, box-shadow 1s ease;
+}
+
+#txt{
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
